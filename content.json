@@ -360,7 +360,7 @@
       "title": "Pérola Leitosa",
       "category": "Nude",
       "featured": true,
-      "image": "",
+      "image": "assets/uploads/trabalhos-perola-leitosa-mv061r030.webp",
       "art": {
         "kind": "nails",
         "shape": "almond",
@@ -372,14 +372,15 @@
         ],
         "length": "long",
         "props": "strand"
-      }
+      },
+      "arch": false
     },
     {
       "id": "g2",
       "title": "Francesinha Clássica",
       "category": "Francesinha",
       "featured": true,
-      "image": "",
+      "image": "assets/uploads/trabalhos-francesinha-classica-mv061rhk1.webp",
       "art": {
         "kind": "nails",
         "shape": "square",
@@ -399,7 +400,7 @@
       "category": "Gel",
       "featured": true,
       "arch": true,
-      "image": "",
+      "image": "assets/uploads/trabalhos-bordeaux-noturno-mv061rvt2.webp",
       "art": {
         "kind": "nails",
         "shape": "almond",
@@ -419,7 +420,7 @@
       "title": "Folha de Ouro",
       "category": "Nail Art",
       "featured": true,
-      "image": "",
+      "image": "assets/uploads/trabalhos-folha-de-ouro-mv061scp3.webp",
       "art": {
         "kind": "nails",
         "shape": "stiletto",
@@ -439,7 +440,7 @@
       "title": "Cromado Rosé",
       "category": "Gel",
       "featured": true,
-      "image": "",
+      "image": "assets/uploads/trabalhos-cromado-rose-mv061st64.webp",
       "art": {
         "kind": "nails",
         "shape": "coffin",
@@ -459,7 +460,7 @@
       "category": "Noiva",
       "featured": true,
       "arch": true,
-      "image": "",
+      "image": "assets/uploads/trabalhos-noiva-em-seda-mv061tgg5.webp",
       "art": {
         "kind": "nails",
         "shape": "almond",
@@ -479,7 +480,7 @@
       "id": "g7",
       "title": "Linha Dourada",
       "category": "Minimal",
-      "image": "",
+      "image": "assets/uploads/trabalhos-linha-dourada-mv061tv96.webp",
       "art": {
         "kind": "nails",
         "shape": "oval",
@@ -498,7 +499,7 @@
       "id": "g8",
       "title": "Caramelo",
       "category": "Nude",
-      "image": "",
+      "image": "assets/uploads/trabalhos-caramelo-mv061ukt7.webp",
       "art": {
         "kind": "nails",
         "shape": "square",
@@ -533,7 +534,7 @@
       "id": "g10",
       "title": "Arte Floral",
       "category": "Nail Art",
-      "image": "",
+      "image": "assets/uploads/trabalhos-arte-floral-mv061v6u8.webp",
       "art": {
         "kind": "nails",
         "shape": "almond",
@@ -552,7 +553,7 @@
       "id": "g11",
       "title": "Brilho de Cerimónia",
       "category": "Noiva",
-      "image": "",
+      "image": "assets/uploads/trabalhos-brilho-de-cerimonia-mv061vlg9.webp",
       "art": {
         "kind": "nails",
         "shape": "oval",
@@ -570,7 +571,7 @@
       "id": "g12",
       "title": "Um Ponto",
       "category": "Minimal",
-      "image": "",
+      "image": "assets/uploads/trabalhos-um-ponto-mv061w8310.webp",
       "art": {
         "kind": "nails",
         "shape": "square",
@@ -854,6 +855,6 @@
     "Arte",
     "Cuidados"
   ],
-  "updatedAt": "2026-10-08T23:13:46.630Z",
+  "updatedAt": "2026-10-08T23:27:09.281Z",
   "version": 1
 }
