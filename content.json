@@ -517,7 +517,7 @@
       "id": "g9",
       "title": "Rosa Antigo",
       "category": "Gel",
-      "image": "",
+      "image": "assets/uploads/trabalhos-rosa-antigo-mv06337u0.webp",
       "art": {
         "kind": "nails",
         "shape": "oval",
@@ -855,6 +855,6 @@
     "Arte",
     "Cuidados"
   ],
-  "updatedAt": "2026-10-08T23:27:09.281Z",
+  "updatedAt": "2026-10-08T23:28:05.342Z",
   "version": 1
 }
