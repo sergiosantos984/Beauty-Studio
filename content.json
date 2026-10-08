@@ -173,7 +173,7 @@
       "price": 20,
       "from": false,
       "duration": "45 min",
-      "image": "",
+      "image": "assets/uploads/servicos-manicure-mv05kl6u0.webp",
       "alt": "Unhas curtas ovais em tom nude",
       "art": {
         "kind": "nails",
@@ -196,7 +196,7 @@
       "price": 28,
       "from": false,
       "duration": "60 min",
-      "image": "",
+      "image": "assets/uploads/servicos-verniz-gel-mv05klpt1.webp",
       "alt": "Unhas amêndoa em verniz gel bordeaux",
       "art": {
         "kind": "nails",
@@ -220,7 +220,7 @@
       "price": 40,
       "from": true,
       "duration": "120 min",
-      "image": "",
+      "image": "assets/uploads/servicos-unhas-de-gel-mv05km5m2.webp",
       "alt": "Unhas de gel em formato coffin com acabamento cromado rosé",
       "art": {
         "kind": "nails",
@@ -244,7 +244,7 @@
       "from": true,
       "priceNote": "por unha",
       "duration": "+15 min",
-      "image": "",
+      "image": "assets/uploads/servicos-nail-art-mv05kmpf3.webp",
       "alt": "Nail art com linhas douradas sobre fundo rosa",
       "art": {
         "kind": "nails",
@@ -268,7 +268,7 @@
       "price": 32,
       "from": false,
       "duration": "75 min",
-      "image": "",
+      "image": "assets/uploads/servicos-francesinha-mv05kn184.webp",
       "alt": "Francesinha clássica em unhas quadradas",
       "art": {
         "kind": "nails",
@@ -291,7 +291,7 @@
       "price": 35,
       "from": false,
       "duration": "90 min",
-      "image": "",
+      "image": "assets/uploads/servicos-manutencao-de-gel-mv05knjn5.webp",
       "alt": "Unhas de gel rosa antigo em formato amêndoa",
       "art": {
         "kind": "nails",
@@ -314,7 +314,7 @@
       "price": 10,
       "from": false,
       "duration": "20 min",
-      "image": "",
+      "image": "assets/uploads/servicos-remocao-de-gel-mv05ko196.webp",
       "alt": "Unhas naturais curtas após remoção",
       "art": {
         "kind": "nails",
@@ -337,7 +337,7 @@
       "price": 15,
       "from": false,
       "duration": "30 min",
-      "image": "",
+      "image": "assets/uploads/servicos-spa-de-maos-mv05koth7.webp",
       "alt": "Frascos de cuidado de mãos sobre pedestal",
       "art": {
         "kind": "bottles",
@@ -854,6 +854,6 @@
     "Arte",
     "Cuidados"
   ],
-  "updatedAt": "2026-10-08T23:10:49.585Z",
+  "updatedAt": "2026-10-08T23:13:46.630Z",
   "version": 1
 }
