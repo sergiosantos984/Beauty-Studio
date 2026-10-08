@@ -814,7 +814,7 @@
     },
     "duoB": {
       "image": {
-        "desktop": "",
+        "desktop": "assets/uploads/imagens-do-site-moderno-mv05gw660.webp",
         "mobile": ""
       },
       "alt": "Nail art moderna cromada",
@@ -834,7 +834,7 @@
     },
     "about": {
       "image": {
-        "desktop": "assets/uploads/imagens-do-site-sobre-mv0523lw4.webp",
+        "desktop": "",
         "mobile": ""
       },
       "alt": "Monograma CG do Beauty Studio em arco",
@@ -854,6 +854,6 @@
     "Arte",
     "Cuidados"
   ],
-  "updatedAt": "2026-10-08T23:05:14.320Z",
+  "updatedAt": "2026-10-08T23:10:49.585Z",
   "version": 1
 }
