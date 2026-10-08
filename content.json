@@ -754,8 +754,8 @@
   "pages": {
     "intro": {
       "image": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "assets/uploads/imagens-do-site-abertura-mv0521fu0.webp",
+        "mobile": "assets/uploads/imagens-do-site-abertura-mv0522401.webp"
       },
       "alt": "Unhas amêndoa em tom pérola sobre seda",
       "art": {
@@ -774,7 +774,7 @@
     },
     "hero": {
       "image": {
-        "desktop": "",
+        "desktop": "assets/uploads/imagens-do-site-destaque-mv0522m92.webp",
         "mobile": ""
       },
       "alt": "Mão com unhas amêndoa vermelho cereja sobre seda rosa",
@@ -795,7 +795,7 @@
     },
     "duoA": {
       "image": {
-        "desktop": "",
+        "desktop": "assets/uploads/imagens-do-site-classico-mv0523773.webp",
         "mobile": ""
       },
       "alt": "Francesinha clássica",
@@ -834,7 +834,7 @@
     },
     "about": {
       "image": {
-        "desktop": "",
+        "desktop": "assets/uploads/imagens-do-site-sobre-mv0523lw4.webp",
         "mobile": ""
       },
       "alt": "Monograma CG do Beauty Studio em arco",
@@ -854,6 +854,6 @@
     "Arte",
     "Cuidados"
   ],
-  "version": 1,
-  "updatedAt": "2026-10-08T14:00:00.000Z"
+  "updatedAt": "2026-10-08T22:59:19.310Z",
+  "version": 1
 }
