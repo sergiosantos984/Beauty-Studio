@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Beauty Studio Cátia Gonçalves</title>
+<meta name="description" content="Manicure, nail art e cuidados personalizados para realçar a sua beleza. Beauty Studio Cátia Gonçalves.">
+<meta name="theme-color" content="#F8F5F0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Manrope:wght@300..700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+
+<!-- ============ LOADER ============ -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <div class="loader__mono"><span>C</span><span>G</span></div>
+    <div class="loader__name">Beauty Studio</div>
+    <svg class="loader__line" viewBox="0 0 200 2" preserveAspectRatio="none"><line x1="0" y1="1" x2="200" y2="1"/></svg>
+  </div>
+</div>
+
+<!-- ============ CURSOR (desktop) ============ -->
+<div class="cursor" id="cursor" aria-hidden="true"><div class="cursor__ring"><span class="cursor__label"></span></div></div>
+
+<!-- ============ PAGE TRANSITION ============ -->
+<div class="transition" id="transition" aria-hidden="true"><span class="transition__word"></span></div>
+
+<!-- ============ HEADER ============ -->
+<header class="header" id="header">
+  <a href="#inicio" class="brand" aria-label="Beauty Studio Cátia Gonçalves, início">
+    <span class="brand__mono">CG</span>
+    <span class="brand__name">Beauty Studio<em>Cátia Gonçalves</em></span>
+  </a>
+  <nav class="nav" aria-label="Principal">
+    <ul>
+      <li><a href="#inicio" data-nav="inicio">Início</a></li>
+      <li><a href="#servicos" data-nav="servicos">Serviços</a></li>
+      <li><a href="#trabalhos" data-nav="trabalhos">Trabalhos</a></li>
+      <li><a href="#sobre" data-nav="sobre">Sobre</a></li>
+      <li><a href="#studio" data-nav="studio">Studio</a></li>
+      <li><a href="#contacto" data-nav="contacto">Contacto</a></li>
+    </ul>
+  </nav>
+  <div class="header__actions">
+    <a class="btn btn--dark btn--sm header__book" data-book data-magnetic data-cursor="abrir">Marcar sessão</a>
+    <a class="icon-btn header__wa" data-whatsapp data-cursor="contactar" aria-label="Falar pelo WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>
+    </a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menu">
+      <span class="menu-btn__label">Menu</span><span class="menu-btn__icon" aria-hidden="true"><i></i><i></i></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu" hidden>
+  <span class="pearl menu__pearl" style="--s:46px"><i></i></span>
+  <span class="pearl menu__pearl2" style="--s:22px;--d:-2s"><i></i></span>
+  <nav aria-label="Menu móvel">
+    <ul class="menu__list">
+      <li><a href="#inicio"><span class="menu__num">01</span><span class="menu__word">Início</span></a></li>
+      <li><a href="#servicos"><span class="menu__num">02</span><span class="menu__word">Serviços</span></a></li>
+      <li><a href="#trabalhos"><span class="menu__num">03</span><span class="menu__word">Trabalhos</span></a></li>
+      <li><a href="#sobre"><span class="menu__num">04</span><span class="menu__word">Sobre</span></a></li>
+      <li><a href="#studio"><span class="menu__num">05</span><span class="menu__word">Studio</span></a></li>
+      <li><a href="#contacto"><span class="menu__num">06</span><span class="menu__word">Contacto</span></a></li>
+    </ul>
+  </nav>
+  <div class="menu__foot">
+    <a class="btn btn--clay" data-book>Marcar sessão</a>
+    <p class="menu__info"><span data-studio="address"></span><span data-studio="hoursShort"></span></p>
+  </div>
+</div>
+
+<main id="conteudo" tabindex="-1">
+
+<!-- =====================================================================
+     VIEW — INÍCIO
+     ===================================================================== -->
+<div class="view" data-view="inicio">
+
+  <!-- INTRO -->
+  <section class="intro" data-bg="#F8F5F0" aria-label="Boas-vindas">
+    <div class="intro__stage">
+      <div class="intro__media" data-media="intro"></div>
+      <div class="intro__veil"></div>
+      <svg class="intro__nail" viewBox="0 0 60 100" aria-hidden="true"><path d="M8 96 L8 44 C8 14 22 4 30 4 C38 4 52 14 52 44 L52 96 Q30 84 8 96Z"/></svg>
+      <h1 class="intro__title" aria-label="Beauty Studio Cátia Gonçalves">
+        <span class="intro__row intro__row--a" data-chars aria-hidden="true">Beauty</span>
+        <span class="intro__row intro__row--b" data-chars aria-hidden="true">Studio</span>
+        <span class="intro__row intro__row--c" aria-hidden="true"><em>Cátia <br class="br-mobile">Gonçalves</em></span>
+      </h1>
+      <p class="intro__kicker">Manicure<span>✦</span>Nail art<span>✦</span>Cuidado das mãos</p>
+      <div class="badge intro__badge" data-badge></div>
+      <span class="pearl intro__pearl" style="--s:clamp(26px,3.4vw,52px)"><i></i></span>
+      <span class="pearl intro__pearl2" style="--s:clamp(14px,1.6vw,22px);--d:-3s"><i></i></span>
+      <div class="scroll-cue" aria-hidden="true"><span>Scroll</span><i></i></div>
+      <p class="intro__tag" data-words>Um momento <em>só seu.</em></p>
+    </div>
+  </section>
+
+  <!-- HERO -->
+  <section class="hero chapter" data-bg="#F8F5F0" aria-labelledby="hero-title">
+    <div class="giant giant--hero" aria-hidden="true"><span>Beauty&nbsp;✦&nbsp;Detalhe&nbsp;✦&nbsp;Beauty</span></div>
+    <div class="hero__grid">
+      <div class="hero__copy">
+        <p class="eyebrow" data-fade>Manicure · Nail art · Cuidado</p>
+        <h2 class="hero__title" id="hero-title" data-words>A beleza está nos <em>detalhes.</em></h2>
+        <p class="hero__lead" data-fade>Manicure, nail art e cuidados personalizados para realçar a sua beleza.</p>
+        <div class="hero__ctas" data-fade>
+          <a class="btn btn--clay" data-book data-magnetic data-cursor="abrir">Marcar sessão</a>
+          <a class="btn btn--line" href="#trabalhos" data-cursor="abrir">Ver trabalhos</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="depth" data-depth="0.6">
+          <div class="hero__frame media-frame" data-reveal="mask" data-media="hero"></div>
+        </div>
+        <svg class="goldline hero__gold" viewBox="0 0 500 640" preserveAspectRatio="none" aria-hidden="true"><path d="M60 610 C -30 420, 10 120, 230 46 C 420 -10, 540 200, 478 430 C 440 580, 300 660, 150 600"/></svg>
+        <div class="depth hero__sphere-wrap" data-depth="1.6"><div class="glass-sphere"></div></div>
+        <div class="depth hero__pearl-wrap" data-depth="2.4"><span class="pearl" style="--s:clamp(30px,3vw,46px)"><i></i></span></div>
+        <div class="depth hero__pearl2-wrap" data-depth="1.2"><span class="pearl" style="--s:18px;--d:-4s"><i></i></span></div>
+        <div class="badge hero__badge" data-badge></div>
+        <p class="hero__caption">Coleção Pérola — N.º 01</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLÁSSICO / MODERNO -->
+  <section class="duo" data-bg="#EFE6DF" aria-label="Clássico e moderno">
+    <div class="duo__stage">
+      <div class="duo__tint" aria-hidden="true"></div>
+      <div class="duo__head">
+        <p class="eyebrow">Duas linguagens</p>
+        <p class="duo__count" aria-hidden="true"><span class="duo__n"><span>I</span><span>II</span></span><span>/ II</span></p>
+      </div>
+      <div class="duo__words">
+        <h2 class="duo__word duo__word--a">Clássico</h2>
+        <h2 class="duo__word duo__word--b"><em>Moderno</em></h2>
+      </div>
+      <div class="duo__media">
+        <div class="duo__img duo__img--a" data-media="duoA"></div>
+        <div class="duo__img duo__img--b" data-media="duoB"></div>
+      </div>
+      <div class="duo__texts">
+        <div class="duo__text duo__text--a">
+          <p class="duo__lead">Elegância que atravessa gerações.</p>
+          <ul><li>Francesinha</li><li>Formas intemporais</li><li>Tons naturais</li></ul>
+        </div>
+        <div class="duo__text duo__text--b">
+          <p class="duo__lead">A sua personalidade, em cada unha.</p>
+          <ul><li>Nail art contemporânea</li><li>Desenhos criativos</li><li>Acabamentos cromados</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="services chapter" data-bg="#F8F5F0" aria-labelledby="svc-title">
+    <svg class="goldline services__gold" viewBox="0 0 1000 1000" preserveAspectRatio="none" aria-hidden="true"><path d="M470 118 C 640 90, 880 40, 950 150 C 1010 260, 960 520, 975 760 C 985 900, 900 980, 760 990"/></svg>
+    <header class="sec-head">
+      <p class="eyebrow" data-fade>O que fazemos</p>
+      <h2 class="display" id="svc-title" data-chars-reveal>Serviços</h2>
+      <p class="sec-head__lead" data-fade>Cada sessão começa com uma conversa. Escolhemos juntas a forma, o tom e o acabamento que fazem sentido para si.</p>
+    </header>
+    <ol class="svc-list" data-services="home"></ol>
+    <div class="services__foot" data-fade>
+      <a class="link-arrow" href="#servicos" data-cursor="abrir">Ver serviços e preços <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <!-- O NOSSO TRABALHO -->
+  <section class="work chapter" data-bg="#F3ECE6" aria-labelledby="work-title">
+    <div class="giant giant--work" aria-hidden="true"><span>Trabalho&nbsp;✦&nbsp;Trabalho</span></div>
+    <header class="sec-head sec-head--center">
+      <p class="eyebrow" data-fade>Portefólio</p>
+      <h2 class="display" id="work-title" data-words>O nosso <em>trabalho</em></h2>
+    </header>
+    <div class="work__grid" data-featured></div>
+    <div class="work__foot">
+      <a class="btn btn--line" href="#trabalhos" data-cursor="abrir">Ver todos os trabalhos</a>
+      <div class="badge work__badge" data-badge></div>
+    </div>
+  </section>
+
+  <!-- SOBRE A CÁTIA -->
+  <section class="about chapter" data-bg="#E7D3D3" aria-labelledby="about-title">
+    <svg class="goldline about__gold" viewBox="0 0 1000 800" preserveAspectRatio="none" aria-hidden="true"><path d="M-20 640 C 180 520, 260 760, 470 600 C 640 470, 700 160, 1020 120"/></svg>
+    <span class="pearl about__pearl" style="--s:clamp(24px,2.6vw,40px)"><i></i></span>
+    <div class="about__grid">
+      <div class="about__media-wrap" data-speed="-6">
+        <div class="about__media media-frame" data-reveal="curtain" data-media="about"></div>
+      </div>
+      <div class="about__copy" data-speed="5">
+        <p class="eyebrow" data-fade>Sobre a Cátia</p>
+        <h2 class="about__title" id="about-title" data-words>Mais do que unhas. <em>Um momento para si.</em></h2>
+      </div>
+      <div class="about__body" data-fade>
+        <p data-studio="aboutShort"></p>
+        <p class="about__sign">Cátia Gonçalves</p>
+        <a class="link-arrow" href="#sobre" data-cursor="abrir">Conhecer a Cátia <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- STUDIO -->
+  <section class="studio chapter" data-bg="#DCCBC0" aria-labelledby="studio-title">
+    <header class="sec-head">
+      <p class="eyebrow" data-fade>O studio</p>
+      <h2 class="display display--md" id="studio-title" data-words>O seu momento <em>começa aqui.</em></h2>
+    </header>
+    <div class="studio__stack" data-studio-stack></div>
+    <div class="studio__foot" data-fade>
+      <p data-studio="studioShort"></p>
+      <a class="link-arrow" href="#studio" data-cursor="abrir">Visitar o studio <span aria-hidden="true">→</span></a>
+    </div>
+  </section>
+
+  <!-- PROMOÇÃO -->
+  <section class="promo" data-bg="#241A18" data-ink="#F8F5F0" aria-labelledby="promo-title" data-promo></section>
+
+  <!-- PREÇÁRIO -->
+  <section class="pricing chapter" data-bg="#F8F5F0" aria-labelledby="pricing-title">
+    <header class="sec-head">
+      <p class="eyebrow" data-fade>Preçário</p>
+      <h2 class="display display--md" id="pricing-title" data-words>Preços <em>claros.</em></h2>
+      <p class="sec-head__lead" data-fade>Valores de referência. O preço final é sempre confirmado consigo antes de começar.</p>
+    </header>
+    <ul class="price-list" data-prices="home"></ul>
+  </section>
+
+  <!-- COLEÇÕES (horizontal) -->
+  <section class="hscroll" data-bg="#F1E8E1" aria-labelledby="col-title">
+    <div class="hscroll__pin">
+      <header class="hscroll__head">
+        <div>
+          <p class="eyebrow">Coleções</p>
+          <h2 class="display display--md" id="col-title">Seis formas de <em>brilhar</em></h2>
+        </div>
+        <p class="hscroll__progress" aria-hidden="true"><span class="hscroll__cur">01</span> / <span data-col-total>06</span></p>
+      </header>
+      <div class="hscroll__track" data-collections></div>
+    </div>
+  </section>
+
+  <!-- INSTAGRAM -->
+  <section class="insta chapter" data-bg="#F8F5F0" aria-labelledby="insta-title">
+    <h2 class="sr" id="insta-title">Instagram</h2>
+    <div class="marquee" aria-hidden="true"><div class="marquee__track" data-marquee></div></div>
+    <div class="insta__grid" data-insta></div>
+    <div class="insta__foot" data-fade>
+      <a class="btn btn--line" data-instagram data-cursor="abrir">Seguir no Instagram</a>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final" data-bg="#E7D3D3" aria-labelledby="final-title" data-hide-bar>
+    <svg class="final__lines" viewBox="0 0 1200 800" preserveAspectRatio="none" aria-hidden="true">
+      <path class="flow" d="M-40 230 C 220 120, 380 340, 620 220 S 1000 90, 1240 200"/>
+      <path class="flow flow--2" d="M-40 600 C 260 700, 420 480, 660 600 S 1020 720, 1240 560"/>
+    </svg>
+    <span class="pearl final__p1" style="--s:44px"><i></i></span>
+    <span class="pearl final__p2" style="--s:22px;--d:-2s"><i></i></span>
+    <span class="pearl final__p3" style="--s:30px;--d:-5s"><i></i></span>
+    <div class="badge final__badge" data-badge></div>
+    <div class="final__inner">
+      <h2 class="final__title" id="final-title">
+        <span class="line"><span>Pronta para</span></span>
+        <span class="line"><span><em>se sentir</em></span></span>
+        <span class="line"><span>ainda mais</span></span>
+        <span class="line"><span>bonita?</span></span>
+      </h2>
+      <div class="final__ctas">
+        <a class="btn btn--clay btn--xl" data-book data-magnetic data-cursor="abrir">Marcar sessão</a>
+        <a class="btn btn--line" data-whatsapp data-cursor="contactar">Falar pelo WhatsApp</a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!-- =====================================================================
+     VIEW — SERVIÇOS
+     ===================================================================== -->
+<div class="view" data-view="servicos" hidden>
+  <header class="page-hero" data-bg="#F8F5F0">
+    <p class="eyebrow" data-fade>Catálogo</p>
+    <h1 class="page-hero__title" data-chars-reveal>Serviços</h1>
+    <p class="page-hero__lead" data-fade>Do cuidado essencial à nail art de assinatura. Todos os serviços incluem preparação das unhas e cutículas.</p>
+    <svg class="goldline page-hero__gold" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true"><path d="M560 120 C 720 40, 960 80, 980 220 C 995 330, 860 390, 700 380"/></svg>
+  </header>
+  <section class="chapter chapter--tight" data-bg="#F8F5F0" aria-label="Lista de serviços">
+    <div data-catalogue></div>
+  </section>
+  <section class="chapter notes" data-bg="#EFE6DF" aria-labelledby="notes-title">
+    <header class="sec-head">
+      <p class="eyebrow" data-fade>Antes de vir</p>
+      <h2 class="display display--md" id="notes-title" data-words>Bom <em>saber</em></h2>
+    </header>
+    <ul class="notes__list" data-notes></ul>
+  </section>
+  <section class="chapter mini-cta" data-bg="#E7D3D3" data-hide-bar aria-label="Marcar sessão">
+    <p class="mini-cta__title" data-words>Já sabe o que <em>quer?</em></p>
+    <a class="btn btn--clay btn--xl" data-book data-magnetic data-cursor="abrir">Marcar sessão</a>
+  </section>
+</div>
+
+<!-- =====================================================================
+     VIEW — TRABALHOS
+     ===================================================================== -->
+<div class="view" data-view="trabalhos" hidden>
+  <header class="page-hero" data-bg="#F3ECE6">
+    <p class="eyebrow" data-fade>Portefólio</p>
+    <h1 class="page-hero__title" data-chars-reveal>Trabalhos</h1>
+    <p class="page-hero__lead" data-fade>Uma seleção de unhas feitas no studio. Cada conjunto foi pensado para a mão, o estilo e o momento de quem o usa.</p>
+  </header>
+  <section class="chapter chapter--tight" data-bg="#F3ECE6" aria-label="Galeria">
+    <div class="filters" role="group" aria-label="Filtrar trabalhos" data-filters></div>
+    <div class="work__grid work__grid--all" data-gallery></div>
+  </section>
+  <section class="chapter mini-cta" data-bg="#E7D3D3" data-hide-bar aria-label="Marcar sessão">
+    <p class="mini-cta__title" data-words>Gostou de algum <em>estilo?</em></p>
+    <a class="btn btn--clay btn--xl" data-book data-magnetic data-cursor="abrir">Marcar sessão</a>
+  </section>
+</div>
+
+<!-- =====================================================================
+     VIEW — SOBRE
+     ===================================================================== -->
+<div class="view" data-view="sobre" hidden>
+  <header class="page-hero" data-bg="#E7D3D3">
+    <p class="eyebrow" data-fade>Sobre</p>
+    <h1 class="page-hero__title" data-chars-reveal>Cátia</h1>
+    <p class="page-hero__lead" data-fade data-studio="aboutLead"></p>
+  </header>
+  <section class="chapter story" data-bg="#E7D3D3" aria-labelledby="story-title">
+    <div class="story__grid">
+      <div class="story__media media-frame" data-reveal="organic" data-media="about"></div>
+      <div class="story__copy">
+        <h2 class="story__title" id="story-title" data-words>Mais do que unhas. <em>Um momento para si.</em></h2>
+        <div class="story__text" data-fade data-studio="aboutStory"></div>
+        <p class="about__sign" data-fade>Cátia Gonçalves</p>
+      </div>
+    </div>
+  </section>
+  <section class="chapter principles" data-bg="#F8F5F0" aria-labelledby="pr-title">
+    <header class="sec-head">
+      <p class="eyebrow" data-fade>Filosofia</p>
+      <h2 class="display display--md" id="pr-title" data-words>Aquilo em que <em>acreditamos</em></h2>
+    </header>
+    <ul class="principles__list" data-principles></ul>
+  </section>
+  <section class="chapter quote" data-bg="#DCCBC0" aria-label="Citação">
+    <span class="pearl quote__pearl" style="--s:34px"><i></i></span>
+    <blockquote class="quote__text" data-words data-studio="quote"></blockquote>
+  </section>
+</div>
+
+<!-- =====================================================================
+     VIEW — STUDIO
+     ===================================================================== -->
+<div class="view" data-view="studio" hidden>
+  <header class="page-hero" data-bg="#DCCBC0">
+    <p class="eyebrow" data-fade>O espaço</p>
+    <h1 class="page-hero__title" data-chars-reveal>Studio</h1>
+    <p class="page-hero__lead" data-fade data-studio="studioShort"></p>
+  </header>
+  <section class="chapter studio" data-bg="#DCCBC0" aria-label="Imagens do studio">
+    <div class="studio__stack" data-studio-stack></div>
+  </section>
+  <section class="chapter visit" data-bg="#F8F5F0" aria-labelledby="visit-title">
+    <header class="sec-head">
+      <p class="eyebrow" data-fade>Visite-nos</p>
+      <h2 class="display display--md" id="visit-title" data-words>Onde <em>estamos</em></h2>
+    </header>
+    <div class="visit__grid">
+      <div class="map" data-map></div>
+      <dl class="info-list" data-info></dl>
+    </div>
+  </section>
+</div>
+
+<!-- =====================================================================
+     VIEW — CONTACTO
+     ===================================================================== -->
+<div class="view" data-view="contacto" hidden>
+  <header class="page-hero" data-bg="#F8F5F0">
+    <p class="eyebrow" data-fade>Contacto</p>
+    <h1 class="page-hero__title" data-chars-reveal>Contacto</h1>
+    <p class="page-hero__lead" data-fade>A forma mais rápida de marcar é pelo WhatsApp. Respondemos durante o horário do studio.</p>
+  </header>
+  <section class="chapter chapter--tight contact" data-bg="#F8F5F0" aria-label="Formas de contacto">
+    <div class="contact__grid">
+      <div class="contact__info">
+        <dl class="info-list" data-info="full"></dl>
+        <a class="btn btn--wa" data-whatsapp data-cursor="contactar"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg>Falar pelo WhatsApp</a>
+      </div>
+      <form class="booking glass-card" id="bookingForm" novalidate>
+        <h2 class="booking__title">Pedido de marcação</h2>
+        <p class="booking__hint">Preencha e abrimos o WhatsApp com a mensagem pronta a enviar.</p>
+        <div class="field">
+          <label for="f-name">Nome</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required>
+          <span class="field__error" id="f-name-err"></span>
+        </div>
+        <div class="field">
+          <label for="f-service">Serviço</label>
+          <select id="f-service" name="service" data-service-options></select>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="f-date">Data preferida</label>
+            <input id="f-date" name="date" type="date">
+          </div>
+          <div class="field">
+            <label for="f-time">Período</label>
+            <select id="f-time" name="time">
+              <option value="">Indiferente</option>
+              <option>Manhã</option>
+              <option>Tarde</option>
+              <option>Final do dia</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-notes">Notas <span>(opcional)</span></label>
+          <textarea id="f-notes" name="notes" rows="3" placeholder="Ideias, cores, fotografias de referência…"></textarea>
+        </div>
+        <button class="btn btn--dark btn--block" type="submit" data-cursor="abrir">Preparar mensagem</button>
+        <div class="booking__result" id="bookingResult" hidden>
+          <p>A sua mensagem está pronta.</p>
+          <a class="link-arrow" id="bookingLink" target="_blank" rel="noopener">Abrir no WhatsApp <span aria-hidden="true">→</span></a>
+        </div>
+      </form>
+    </div>
+  </section>
+  <section class="chapter visit" data-bg="#EFE6DF" aria-label="Mapa">
+    <div class="map map--wide" data-map></div>
+  </section>
+</div>
+
+<!-- =====================================================================
+     VIEW — ÁREA RESERVADA (preenchida por app.js)
+     ===================================================================== -->
+<div class="view view--admin" data-view="admin" hidden></div>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" data-hide-bar>
+  <div class="footer__top">
+    <p class="footer__claim">Um momento <em>só seu.</em></p>
+    <a class="btn btn--clay" data-book data-magnetic data-cursor="abrir">Marcar sessão</a>
+  </div>
+  <div class="footer__cols">
+    <div><h3>Visite-nos</h3><p data-studio="address"></p></div>
+    <div><h3>Horário</h3><ul class="hours" data-hours></ul></div>
+    <div><h3>Contacto</h3><p><a data-whatsapp data-cursor="contactar">WhatsApp</a><br><span data-studio="phone"></span><br><span data-studio="email"></span></p></div>
+    <div><h3>Navegação</h3>
+      <ul class="footer__nav">
+        <li><a href="#servicos">Serviços</a></li><li><a href="#trabalhos">Trabalhos</a></li>
+        <li><a href="#sobre">Sobre</a></li><li><a href="#studio">Studio</a></li><li><a href="#contacto">Contacto</a></li>
+        <li><a data-instagram>Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__mark" aria-hidden="true">Cátia Gonçalves</div>
+  <div class="footer__base"><span>© <span data-year></span> Beauty Studio Cátia Gonçalves</span><span>Feito com detalhe. · <a class="footer__admin" href="#admin">Área reservada</a></span></div>
+</footer>
+
+<!-- ============ FLOATING WHATSAPP (desktop) ============ -->
+<a class="wa" data-whatsapp data-cursor="contactar" aria-label="Fale connosco pelo WhatsApp">
+  <span class="wa__label">Fale connosco</span>
+  <span class="wa__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg></span>
+</a>
+
+<!-- ============ DRAFT PREVIEW PILL (admin only) ============ -->
+<a class="draft-pill" id="draftPill" href="#admin" hidden><span aria-hidden="true"></span>Rascunho · voltar ao painel</a>
+
+<!-- ============ STICKY MOBILE CTA ============ -->
+<div class="mbar" id="mbar">
+  <a class="btn btn--dark mbar__book" data-book>Marcar sessão</a>
+  <a class="mbar__wa" data-whatsapp aria-label="Falar pelo WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-wa"/></svg></a>
+</div>
+
+<!-- ============ SERVICE FLOAT (desktop hover) ============ -->
+<div class="svc-float" id="svcFloat" aria-hidden="true"><div class="svc-float__stack"></div><span class="svc-float__price"></span></div>
+
+<!-- ============ LIGHTBOX ============ -->
+<dialog class="lightbox" id="lightbox" aria-label="Trabalho em detalhe">
+  <figure class="lightbox__fig">
+    <div class="lightbox__media"></div>
+    <figcaption class="lightbox__cap"></figcaption>
+  </figure>
+  <div class="lightbox__nav">
+    <button type="button" class="lightbox__btn" data-lb="prev" aria-label="Anterior">←</button>
+    <button type="button" class="lightbox__btn" data-lb="close" aria-label="Fechar">Fechar</button>
+    <button type="button" class="lightbox__btn" data-lb="next" aria-label="Seguinte">→</button>
+  </div>
+</dialog>
+
+<!-- ============ ICONS ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.86 9.86 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.24 8.24 0 0 1 8.24 8.25c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06a6.76 6.76 0 0 1-3.37-2.94c-.25-.44.25-.41.72-1.36.08-.16.04-.31-.02-.43-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.42h-.48a.92.92 0 0 0-.67.31c-.23.25-.87.85-.87 2.08 0 1.22.89 2.4 1.02 2.57.12.16 1.75 2.67 4.24 3.75 1.58.68 2.2.74 2.99.62.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.22-.17-.47-.29Z"/></symbol>
+</svg>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

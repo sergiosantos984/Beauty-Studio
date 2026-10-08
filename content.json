@@ -1,0 +1,859 @@
+{
+  "studio": {
+    "name": "Beauty Studio Cátia Gonçalves",
+    "whatsapp": "351912345678",
+    "phone": "+351 912 345 678",
+    "email": "ola@beautystudiocg.pt",
+    "instagram": {
+      "handle": "@beautystudio.catiagoncalves",
+      "url": "https://www.instagram.com/"
+    },
+    "address": "Rua das Pérolas, 12 · 2750-000 Cascais",
+    "hours": [
+      [
+        "Segunda",
+        "Encerrado"
+      ],
+      [
+        "Terça a Sexta",
+        "10h00 – 19h30"
+      ],
+      [
+        "Sábado",
+        "09h30 – 17h00"
+      ],
+      [
+        "Domingo",
+        "Encerrado"
+      ]
+    ],
+    "hoursShort": "Ter–Sex 10h–19h30 · Sáb 9h30–17h",
+    "bookingMessage": "Olá Cátia! Gostaria de marcar uma sessão.",
+    "aboutShort": "A Cátia acredita que uma manicure bem feita muda a forma como nos sentimos o resto da semana. Cada sessão é calma, cuidada e pensada para as suas mãos.",
+    "aboutLead": "Técnica de unhas, com gosto pelo detalhe e pela calma de um trabalho bem feito.",
+    "aboutStory": [
+      "Cada cliente chega com uma ideia diferente: uma cor que viu, uma ocasião especial, ou apenas vontade de parar uma hora. O meu trabalho é ouvir e transformar isso num resultado bonito e duradouro.",
+      "Trabalho com produtos profissionais, material esterilizado e uma marcação de cada vez, para que o tempo no studio seja só seu.",
+      "O studio nasceu para ser um espaço tranquilo, onde a beleza se faz sem pressa."
+    ],
+    "quote": "“Unhas bonitas são o resultado de pequenos gestos feitos com tempo.”",
+    "studioShort": "Um espaço pequeno, luminoso e tranquilo, pensado para que se sinta em casa desde o primeiro minuto.",
+    "principles": [
+      {
+        "title": "Higiene",
+        "em": "sem exceções",
+        "text": "Material esterilizado, limas individuais e superfícies desinfetadas entre cada cliente."
+      },
+      {
+        "title": "Detalhe",
+        "em": "em cada unha",
+        "text": "Cutículas, forma e acabamento tratados com a mesma atenção, da primeira à décima unha."
+      },
+      {
+        "title": "Tempo",
+        "em": "só para si",
+        "text": "Uma cliente de cada vez. Sem pressas e sem salas cheias."
+      }
+    ],
+    "notes": [
+      {
+        "title": "Chegue com tempo",
+        "text": "Pedimos que chegue 5 minutos antes, para começarmos com calma."
+      },
+      {
+        "title": "Alterações e cancelamentos",
+        "text": "Avise com 24 horas de antecedência, para podermos oferecer o horário a outra cliente."
+      },
+      {
+        "title": "Remoção de gel",
+        "text": "Se vem de outro espaço com gel ou verniz gel, indique-o na marcação para reservarmos o tempo certo."
+      },
+      {
+        "title": "Referências",
+        "text": "Traga fotografias de inspiração. Ajudam a perceber exatamente o que procura."
+      }
+    ],
+    "images": [
+      {
+        "caption": "O studio",
+        "alt": "Sala do studio com janela em arco e luz natural",
+        "image": "",
+        "art": {
+          "kind": "studio",
+          "bg": [
+            "#EFE3D9",
+            "#CDB6A8"
+          ],
+          "arch": true,
+          "mirror": true,
+          "vase": true,
+          "bottles": 3,
+          "table": "#E4D3C6"
+        }
+      },
+      {
+        "caption": "A bancada",
+        "alt": "Bancada de manicure com almofada e frascos de verniz",
+        "image": "",
+        "art": {
+          "kind": "studio",
+          "bg": [
+            "#F1E6DE",
+            "#D6BFB2"
+          ],
+          "arch": false,
+          "lamp": true,
+          "cushion": true,
+          "bottles": 4,
+          "floor": 0.58,
+          "table": "#EADCD0"
+        }
+      },
+      {
+        "caption": "Os detalhes",
+        "alt": "Pérolas e verniz nude sobre tecido de seda",
+        "image": "",
+        "art": {
+          "kind": "nails",
+          "shape": "oval",
+          "finish": "pearl",
+          "polish": "#EBCFC6",
+          "bg": [
+            "#F3E6DF",
+            "#D8B9AE"
+          ],
+          "length": "short",
+          "props": "strand"
+        }
+      },
+      {
+        "caption": "Os produtos",
+        "alt": "Frascos de verniz em tons de bordeaux, nude e rosa",
+        "image": "",
+        "art": {
+          "kind": "bottles",
+          "bg": [
+            "#EDDCD6",
+            "#C7A79D"
+          ],
+          "colors": [
+            "#8E1F2F",
+            "#E7C6BC",
+            "#C9958F"
+          ]
+        }
+      },
+      {
+        "caption": "A preparação",
+        "alt": "Toalhas dobradas e frascos alinhados na bancada",
+        "image": "",
+        "art": {
+          "kind": "studio",
+          "bg": [
+            "#EADBD0",
+            "#C2A797"
+          ],
+          "arch": true,
+          "towel": true,
+          "bottles": 2,
+          "floor": 0.66,
+          "table": "#DFCBBE",
+          "ax": 0.3
+        }
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "manicure",
+      "name": "Manicure",
+      "category": "Manicure",
+      "featured": true,
+      "description": "Cuidado completo das unhas e cutículas, limagem na forma que preferir e acabamento com verniz tradicional ou fortalecedor.",
+      "price": 20,
+      "from": false,
+      "duration": "45 min",
+      "image": "",
+      "alt": "Unhas curtas ovais em tom nude",
+      "art": {
+        "kind": "nails",
+        "shape": "oval",
+        "finish": "nude",
+        "polish": "#E8C4B8",
+        "bg": [
+          "#F4E7E0",
+          "#D9BFB4"
+        ],
+        "length": "short"
+      }
+    },
+    {
+      "id": "verniz-gel",
+      "name": "Verniz Gel",
+      "category": "Manicure",
+      "featured": true,
+      "description": "Cor intensa e brilho espelhado que se mantêm até três semanas, sem lascar. Inclui preparação completa das unhas.",
+      "price": 28,
+      "from": false,
+      "duration": "60 min",
+      "image": "",
+      "alt": "Unhas amêndoa em verniz gel bordeaux",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "solid",
+        "polish": "#8E1F2F",
+        "bg": [
+          "#F0DCD6",
+          "#C9A097"
+        ],
+        "length": "medium",
+        "skin": "medium"
+      }
+    },
+    {
+      "id": "unhas-gel",
+      "name": "Unhas de Gel",
+      "category": "Gel",
+      "featured": true,
+      "description": "Extensão ou reforço em gel, com forma e comprimento à sua medida. Resistentes, leves e com acabamento natural.",
+      "price": 40,
+      "from": true,
+      "duration": "120 min",
+      "image": "",
+      "alt": "Unhas de gel em formato coffin com acabamento cromado rosé",
+      "art": {
+        "kind": "nails",
+        "shape": "coffin",
+        "finish": "chrome",
+        "polish": "#D7B9C0",
+        "bg": [
+          "#EADFE1",
+          "#B9A0A8"
+        ],
+        "length": "long"
+      }
+    },
+    {
+      "id": "nail-art",
+      "name": "Nail Art",
+      "category": "Arte",
+      "featured": true,
+      "description": "Nail art personalizada, desenhada à mão. Do detalhe minimalista a composições completas com folha de ouro.",
+      "price": 5,
+      "from": true,
+      "priceNote": "por unha",
+      "duration": "+15 min",
+      "image": "",
+      "alt": "Nail art com linhas douradas sobre fundo rosa",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "mix",
+        "polish": "#E6B7B1",
+        "accent": "#C2994F",
+        "bg": [
+          "#F3E2DD",
+          "#D0A9A1"
+        ],
+        "length": "long"
+      }
+    },
+    {
+      "id": "francesinha",
+      "name": "Francesinha",
+      "category": "Manicure",
+      "featured": true,
+      "description": "O clássico intemporal: base nude translúcida e ponta branca desenhada com precisão, em verniz gel.",
+      "price": 32,
+      "from": false,
+      "duration": "75 min",
+      "image": "",
+      "alt": "Francesinha clássica em unhas quadradas",
+      "art": {
+        "kind": "nails",
+        "shape": "square",
+        "finish": "french",
+        "polish": "#F1D6CE",
+        "base": "#F0D3CB",
+        "bg": [
+          "#F6EEE8",
+          "#DCC6BB"
+        ],
+        "length": "medium"
+      }
+    },
+    {
+      "id": "manutencao",
+      "name": "Manutenção de Gel",
+      "category": "Gel",
+      "description": "Preenchimento do crescimento natural, correção da forma e nova cor. Recomendado a cada três a quatro semanas.",
+      "price": 35,
+      "from": false,
+      "duration": "90 min",
+      "image": "",
+      "alt": "Unhas de gel rosa antigo em formato amêndoa",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "solid",
+        "polish": "#C48C87",
+        "bg": [
+          "#F0E1DC",
+          "#C9A59C"
+        ],
+        "length": "medium",
+        "skin": "deep"
+      }
+    },
+    {
+      "id": "remocao",
+      "name": "Remoção de Gel",
+      "category": "Gel",
+      "description": "Remoção cuidada, sem limar a unha natural em excesso, seguida de hidratação das cutículas.",
+      "price": 10,
+      "from": false,
+      "duration": "20 min",
+      "image": "",
+      "alt": "Unhas naturais curtas após remoção",
+      "art": {
+        "kind": "nails",
+        "shape": "oval",
+        "finish": "nude",
+        "polish": "#EBCBC0",
+        "bg": [
+          "#F5ECE6",
+          "#D9C5BA"
+        ],
+        "length": "short",
+        "skin": "medium"
+      }
+    },
+    {
+      "id": "spa-maos",
+      "name": "Spa de Mãos",
+      "category": "Cuidados",
+      "description": "Esfoliação, máscara nutritiva e massagem hidratante. Um momento de pausa que pode juntar a qualquer serviço.",
+      "price": 15,
+      "from": false,
+      "duration": "30 min",
+      "image": "",
+      "alt": "Frascos de cuidado de mãos sobre pedestal",
+      "art": {
+        "kind": "bottles",
+        "bg": [
+          "#EFE3DC",
+          "#CDB3A6"
+        ],
+        "colors": [
+          "#EAD1C6",
+          "#D9B3A6",
+          "#F3E4DC"
+        ],
+        "cap": "gold"
+      }
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g1",
+      "title": "Pérola Leitosa",
+      "category": "Nude",
+      "featured": true,
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "pearl",
+        "polish": "#EDD2C9",
+        "bg": [
+          "#F5E9E3",
+          "#D7BCB1"
+        ],
+        "length": "long",
+        "props": "strand"
+      }
+    },
+    {
+      "id": "g2",
+      "title": "Francesinha Clássica",
+      "category": "Francesinha",
+      "featured": true,
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "square",
+        "finish": "french",
+        "polish": "#F1D6CE",
+        "bg": [
+          "#F7F0EA",
+          "#DFCABF"
+        ],
+        "length": "medium",
+        "px": 0.58
+      }
+    },
+    {
+      "id": "g3",
+      "title": "Bordeaux Noturno",
+      "category": "Gel",
+      "featured": true,
+      "arch": true,
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "solid",
+        "polish": "#6E1626",
+        "bg": [
+          "#E9D3CE",
+          "#B88A82"
+        ],
+        "length": "long",
+        "skin": "medium",
+        "tilt": -8
+      }
+    },
+    {
+      "id": "g4",
+      "title": "Folha de Ouro",
+      "category": "Nail Art",
+      "featured": true,
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "stiletto",
+        "finish": "foil",
+        "polish": "#2D2220",
+        "accent": "#CFA55A",
+        "bg": [
+          "#EADBD3",
+          "#B79E92"
+        ],
+        "length": "long",
+        "px": 0.6
+      }
+    },
+    {
+      "id": "g5",
+      "title": "Cromado Rosé",
+      "category": "Gel",
+      "featured": true,
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "coffin",
+        "finish": "chrome",
+        "polish": "#D8B4BB",
+        "bg": [
+          "#EDE2E4",
+          "#BFA6AD"
+        ],
+        "length": "long",
+        "skin": "deep"
+      }
+    },
+    {
+      "id": "g6",
+      "title": "Noiva em Seda",
+      "category": "Noiva",
+      "featured": true,
+      "arch": true,
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "french",
+        "polish": "#F4E2DA",
+        "base": "#F3DCD4",
+        "tip": "#FFFDF9",
+        "bg": [
+          "#F8F2EE",
+          "#E2D0C6"
+        ],
+        "length": "medium",
+        "props": "strand"
+      }
+    },
+    {
+      "id": "g7",
+      "title": "Linha Dourada",
+      "category": "Minimal",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "oval",
+        "finish": "line",
+        "polish": "#EBCBC1",
+        "accent": "#BE9550",
+        "bg": [
+          "#F4ECE6",
+          "#D6C1B6"
+        ],
+        "length": "medium",
+        "skin": "medium"
+      }
+    },
+    {
+      "id": "g8",
+      "title": "Caramelo",
+      "category": "Nude",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "square",
+        "finish": "solid",
+        "polish": "#A9704F",
+        "bg": [
+          "#EFE0D6",
+          "#C5A28E"
+        ],
+        "length": "medium",
+        "skin": "deep"
+      }
+    },
+    {
+      "id": "g9",
+      "title": "Rosa Antigo",
+      "category": "Gel",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "oval",
+        "finish": "solid",
+        "polish": "#C9908A",
+        "bg": [
+          "#F2E4DF",
+          "#CFAAA2"
+        ],
+        "length": "short"
+      }
+    },
+    {
+      "id": "g10",
+      "title": "Arte Floral",
+      "category": "Nail Art",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "art",
+        "polish": "#F0D2CD",
+        "accent": "#B98E4F",
+        "bg": [
+          "#F3E5E1",
+          "#D3AFA8"
+        ],
+        "length": "long",
+        "skin": "medium"
+      }
+    },
+    {
+      "id": "g11",
+      "title": "Brilho de Cerimónia",
+      "category": "Noiva",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "oval",
+        "finish": "pearl",
+        "polish": "#F2DDD6",
+        "bg": [
+          "#F7EFEA",
+          "#DFCBC1"
+        ],
+        "length": "medium",
+        "skin": "deep"
+      }
+    },
+    {
+      "id": "g12",
+      "title": "Um Ponto",
+      "category": "Minimal",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "square",
+        "finish": "line",
+        "polish": "#E2C2B8",
+        "accent": "#A9824A",
+        "bg": [
+          "#F1E8E1",
+          "#CDB8AC"
+        ],
+        "length": "short"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "c1",
+      "title": "Francesinha",
+      "line": "O clássico, redesenhado com linhas finas.",
+      "h": "54svh",
+      "ar": "3 / 4",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "square",
+        "finish": "french",
+        "polish": "#F1D6CE",
+        "bg": [
+          "#F7F0EA",
+          "#DFCABF"
+        ],
+        "length": "medium",
+        "px": 0.58
+      }
+    },
+    {
+      "id": "c2",
+      "title": "Nude",
+      "line": "Tons de pele, brilho limpo, elegância diária.",
+      "h": "42svh",
+      "ar": "4 / 5",
+      "r": "999px 999px 10px 10px",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "pearl",
+        "polish": "#EDD2C9",
+        "bg": [
+          "#F5E9E3",
+          "#D7BCB1"
+        ],
+        "length": "long",
+        "props": "strand"
+      }
+    },
+    {
+      "id": "c3",
+      "title": "Nail Art",
+      "line": "Desenhos à mão, do minimal ao statement.",
+      "h": "60svh",
+      "ar": "2 / 3",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "mix",
+        "polish": "#E6B7B1",
+        "accent": "#C2994F",
+        "bg": [
+          "#F3E2DD",
+          "#D0A9A1"
+        ],
+        "length": "long"
+      }
+    },
+    {
+      "id": "c4",
+      "title": "Noiva",
+      "line": "Delicadas, luminosas e feitas para durar o dia todo.",
+      "h": "46svh",
+      "ar": "1 / 1",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "french",
+        "polish": "#F4E2DA",
+        "base": "#F3DCD4",
+        "tip": "#FFFDF9",
+        "bg": [
+          "#F8F2EE",
+          "#E2D0C6"
+        ],
+        "length": "medium",
+        "props": "strand"
+      }
+    },
+    {
+      "id": "c5",
+      "title": "Gel",
+      "line": "Resistência e forma, com acabamento perfeito.",
+      "h": "52svh",
+      "ar": "3 / 4",
+      "r": "999px 999px 10px 10px",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "coffin",
+        "finish": "chrome",
+        "polish": "#D8B4BB",
+        "bg": [
+          "#EDE2E4",
+          "#BFA6AD"
+        ],
+        "length": "long",
+        "skin": "deep"
+      }
+    },
+    {
+      "id": "c6",
+      "title": "Minimal",
+      "line": "Uma linha, um ponto. O detalhe certo.",
+      "h": "44svh",
+      "ar": "4 / 5",
+      "image": "",
+      "art": {
+        "kind": "nails",
+        "shape": "oval",
+        "finish": "line",
+        "polish": "#EBCBC1",
+        "accent": "#BE9550",
+        "bg": [
+          "#F4ECE6",
+          "#D6C1B6"
+        ],
+        "length": "medium",
+        "skin": "medium"
+      }
+    }
+  ],
+  "promotions": [
+    {
+      "id": "outono",
+      "active": true,
+      "eyebrow": "Edição limitada · Outono",
+      "wordA": "Exclusivo",
+      "wordB": "Momento",
+      "title": "Francesinha",
+      "titleEm": "+ Nail Art",
+      "description": "A elegância da francesinha com um detalhe de nail art à sua escolha.",
+      "priceOld": 35,
+      "priceNew": 29,
+      "note": "Válido até 30 de novembro, mediante marcação.",
+      "message": "Olá Cátia! Gostaria de marcar a promoção Francesinha + Nail Art.",
+      "alt": "Unhas com francesinha e detalhe dourado sobre fundo escuro",
+      "image": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "mixfrench",
+        "polish": "#F2D8D0",
+        "base": "#EFD2C9",
+        "accent": "#CFA55A",
+        "bg": [
+          "#4A3631",
+          "#1F1614"
+        ],
+        "length": "long",
+        "props": "pearls",
+        "light": [
+          0.7,
+          0.2
+        ]
+      }
+    }
+  ],
+  "pages": {
+    "intro": {
+      "image": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "alt": "Unhas amêndoa em tom pérola sobre seda",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "pearl",
+        "polish": "#EBCFC6",
+        "bg": [
+          "#F1E1D9",
+          "#C9A79B"
+        ],
+        "length": "long",
+        "props": "strand",
+        "reach": 0.7
+      }
+    },
+    "hero": {
+      "image": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "alt": "Mão com unhas amêndoa vermelho cereja sobre seda rosa",
+      "art": {
+        "kind": "nails",
+        "shape": "almond",
+        "finish": "solid",
+        "polish": "#8A1A2B",
+        "bg": [
+          "#F0DAD3",
+          "#C3958B"
+        ],
+        "length": "long",
+        "props": "pearls",
+        "px": 0.56,
+        "reach": 0.72
+      }
+    },
+    "duoA": {
+      "image": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "alt": "Francesinha clássica",
+      "art": {
+        "kind": "nails",
+        "shape": "square",
+        "finish": "french",
+        "polish": "#F1D6CE",
+        "bg": [
+          "#F7F0EA",
+          "#DFCABF"
+        ],
+        "length": "medium",
+        "px": 0.58
+      }
+    },
+    "duoB": {
+      "image": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "alt": "Nail art moderna cromada",
+      "art": {
+        "kind": "nails",
+        "shape": "stiletto",
+        "finish": "chrome",
+        "polish": "#B7A3C4",
+        "bg": [
+          "#E3DBE6",
+          "#9E8CA6"
+        ],
+        "length": "long",
+        "skin": "medium",
+        "tilt": 6
+      }
+    },
+    "about": {
+      "image": {
+        "desktop": "",
+        "mobile": ""
+      },
+      "alt": "Monograma CG do Beauty Studio em arco",
+      "art": {
+        "kind": "monogram",
+        "bg": [
+          "#EFDDDA",
+          "#C9A9A3"
+        ],
+        "archColor": "#DCC0BA"
+      }
+    }
+  },
+  "categories": [
+    "Manicure",
+    "Gel",
+    "Arte",
+    "Cuidados"
+  ],
+  "version": 1,
+  "updatedAt": "2026-10-08T14:00:00.000Z"
+}
