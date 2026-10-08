@@ -729,8 +729,8 @@
       "message": "Olá Cátia! Gostaria de marcar a promoção Francesinha + Nail Art.",
       "alt": "Unhas com francesinha e detalhe dourado sobre fundo escuro",
       "image": {
-        "desktop": "",
-        "mobile": ""
+        "desktop": "assets/uploads/promocao-mv06fl6s0.webp",
+        "mobile": "assets/uploads/promocao-mv06fln41.webp"
       },
       "art": {
         "kind": "nails",
@@ -855,6 +855,6 @@
     "Arte",
     "Cuidados"
   ],
-  "updatedAt": "2026-10-08T23:33:40.124Z",
+  "updatedAt": "2026-10-08T23:37:48.610Z",
   "version": 1
 }
