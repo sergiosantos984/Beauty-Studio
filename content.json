@@ -593,7 +593,7 @@
       "line": "O clássico, redesenhado com linhas finas.",
       "h": "54svh",
       "ar": "3 / 4",
-      "image": "",
+      "image": "assets/uploads/colecoes-francesinha-mv06a77a0.webp",
       "art": {
         "kind": "nails",
         "shape": "square",
@@ -614,7 +614,7 @@
       "h": "42svh",
       "ar": "4 / 5",
       "r": "999px 999px 10px 10px",
-      "image": "",
+      "image": "assets/uploads/colecoes-nude-mv06a7lt1.webp",
       "art": {
         "kind": "nails",
         "shape": "almond",
@@ -634,7 +634,7 @@
       "line": "Desenhos à mão, do minimal ao statement.",
       "h": "60svh",
       "ar": "2 / 3",
-      "image": "",
+      "image": "assets/uploads/colecoes-nail-art-mv06a86q2.webp",
       "art": {
         "kind": "nails",
         "shape": "almond",
@@ -654,7 +654,7 @@
       "line": "Delicadas, luminosas e feitas para durar o dia todo.",
       "h": "46svh",
       "ar": "1 / 1",
-      "image": "",
+      "image": "assets/uploads/colecoes-noiva-mv06a8pv3.webp",
       "art": {
         "kind": "nails",
         "shape": "almond",
@@ -677,7 +677,7 @@
       "h": "52svh",
       "ar": "3 / 4",
       "r": "999px 999px 10px 10px",
-      "image": "",
+      "image": "assets/uploads/colecoes-gel-mv06a98p4.webp",
       "art": {
         "kind": "nails",
         "shape": "coffin",
@@ -697,7 +697,7 @@
       "line": "Uma linha, um ponto. O detalhe certo.",
       "h": "44svh",
       "ar": "4 / 5",
-      "image": "",
+      "image": "assets/uploads/colecoes-minimal-mv06a9ms5.webp",
       "art": {
         "kind": "nails",
         "shape": "oval",
@@ -855,6 +855,6 @@
     "Arte",
     "Cuidados"
   ],
-  "updatedAt": "2026-10-08T23:28:05.342Z",
+  "updatedAt": "2026-10-08T23:33:40.124Z",
   "version": 1
 }
