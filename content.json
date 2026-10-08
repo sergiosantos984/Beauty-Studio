@@ -835,7 +835,7 @@
     },
     "about": {
       "image": {
-        "desktop": "",
+        "desktop": "assets/uploads/imagens-do-site-sobre-mv06ik1v0.webp",
         "mobile": ""
       },
       "alt": "Monograma CG do Beauty Studio em arco",
@@ -855,6 +855,6 @@
     "Arte",
     "Cuidados"
   ],
-  "updatedAt": "2026-10-08T23:37:48.610Z",
+  "updatedAt": "2026-10-08T23:40:06.695Z",
   "version": 1
 }
